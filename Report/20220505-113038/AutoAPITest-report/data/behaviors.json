@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "ApiPost",
+    "children" : [ {
+      "name" : "手机号登录",
+      "children" : [ {
+        "name" : "test_01",
+        "uid" : "9c8f07a87a333f1e",
+        "parentUid" : "cf63da13780643f02c82906dd2b2a2e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651721438985,
+          "stop" : 1651721439328,
+          "duration" : 343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cf63da13780643f02c82906dd2b2a2e3"
+    } ],
+    "uid" : "86f74aa806ce951509c80b4edf326b08"
+  } ]
+}

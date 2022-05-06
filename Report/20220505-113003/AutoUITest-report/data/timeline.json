@@ -1,0 +1,64 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Boogie-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "53360-MainThread",
+      "children" : [ {
+        "name" : "test_search[李四]",
+        "uid" : "19ef44e4e343a471",
+        "parentUid" : "f88f0ad193a8de114084b87b22bd5fd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651721413235,
+          "stop" : 1651721416435,
+          "duration" : 3200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'李四'" ]
+      }, {
+        "name" : "test_search[张三]",
+        "uid" : "a261e566e840e59b",
+        "parentUid" : "f88f0ad193a8de114084b87b22bd5fd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1651721410047,
+          "stop" : 1651721413217,
+          "duration" : 3170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'张三'" ]
+      }, {
+        "name" : "test_demo",
+        "uid" : "1199d906dec89a9f",
+        "parentUid" : "f88f0ad193a8de114084b87b22bd5fd4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651721416437,
+          "stop" : 1651721416437,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f88f0ad193a8de114084b87b22bd5fd4"
+    } ],
+    "uid" : "3578cd711e5910678431f6568076d0a0"
+  } ]
+}

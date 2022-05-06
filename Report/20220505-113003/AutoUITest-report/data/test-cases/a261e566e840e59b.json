@@ -1,0 +1,118 @@
+{
+  "uid" : "a261e566e840e59b",
+  "name" : "test_search[张三]",
+  "fullName" : "PageTestCase.test_001_baiduSearch.TestBaiduSearch#test_search",
+  "historyId" : "dea47cb8318ff356a5bdf44914eaa041",
+  "time" : {
+    "start" : 1651721410047,
+    "stop" : 1651721413217,
+    "duration" : 3170
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "init",
+    "time" : {
+      "start" : 1651721408363,
+      "stop" : 1651721410046,
+      "duration" : 1683
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec44d4069a0c00e4",
+      "name" : "log",
+      "source" : "ec44d4069a0c00e4.txt",
+      "type" : "text/plain",
+      "size" : 1138
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "init::0",
+    "time" : {
+      "start" : 1651721416459,
+      "stop" : 1651721416536,
+      "duration" : 77
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "百度搜索"
+  }, {
+    "name" : "story",
+    "value" : "搜索指定关键字"
+  }, {
+    "name" : "tag",
+    "value" : "baidu_search"
+  }, {
+    "name" : "parentSuite",
+    "value" : "PageTestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_001_baiduSearch"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBaiduSearch"
+  }, {
+    "name" : "host",
+    "value" : "Boogie-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "53360-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "PageTestCase.test_001_baiduSearch"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "key_word",
+    "value" : "'张三'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "baidu_search" ]
+  },
+  "source" : "a261e566e840e59b.json",
+  "parameterValues" : [ "'张三'" ]
+}

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu May 05 11:30:16 CST 2022","Thu May 05 11:30:16 CST 2022","0","PageTestCase","test_001_baiduSearch","TestBaiduSearch","","","test_demo",""
+"passed","Thu May 05 11:30:13 CST 2022","Thu May 05 11:30:16 CST 2022","3200","PageTestCase","test_001_baiduSearch","TestBaiduSearch","","","test_search[李四]",""
+"passed","Thu May 05 11:30:10 CST 2022","Thu May 05 11:30:13 CST 2022","3170","PageTestCase","test_001_baiduSearch","TestBaiduSearch","","","test_search[张三]",""

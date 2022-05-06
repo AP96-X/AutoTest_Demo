@@ -1,0 +1,15 @@
+INFO     root:test_001_baiduSearch.py:17 
+WebDriver 正在初始化...
+INFO     root:test_001_baiduSearch.py:19 打开链接: https://www.baidu.com...
+INFO     root:test_001_baiduSearch.py:24 WebDriver 初始化完成！
+INFO     root:baiduIndex.py:24 【===搜索操作===】
+INFO     root:basePage.py:34 等待"[搜索框]"元素,定位方式:[('id', 'kw')]
+INFO     root:basePage.py:39 等待[搜索框]时长:[0:00:00.012447]
+INFO     root:basePage.py:74 查找[搜索框]元素，元素定位:[('id', 'kw')]
+INFO     root:basePage.py:128 清除[搜索框],元素定位:[('id', 'kw')]
+INFO     root:basePage.py:74 查找[搜索框]元素，元素定位:[('id', 'kw')]
+INFO     root:basePage.py:110 在[搜索框]输入[张三],元素定位:[('id', 'kw')]
+INFO     root:basePage.py:34 等待"["百度一下"搜索按钮]"元素,定位方式:[('id', 'su')]
+INFO     root:basePage.py:39 等待["百度一下"搜索按钮]时长:[0:00:00.013701]
+INFO     root:basePage.py:74 查找["百度一下"搜索按钮]元素，元素定位:[('id', 'su')]
+INFO     root:basePage.py:147 点击["百度一下"搜索按钮],元素定位:[('id', 'su')]
