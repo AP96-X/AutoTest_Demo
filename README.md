@@ -66,9 +66,9 @@ PyCharm
 
 ### 2.2.1.PyCharm打开项目
 
-<img src="/Users/ahz171/Library/Application Support/typora-user-images/image-20220427112059635.png" alt="image-20220427112059635"  />
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/50827991/167056340-68abd6f0-51de-4c4e-a260-af14abc0f2c8.png">
 
-<img src="/Users/ahz171/Library/Application Support/typora-user-images/image-20220427112140220.png" alt="image-20220427112140220"  />
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/50827991/167056361-4ffbd021-ac35-487e-933a-b2a114e161bb.png">
 
 
 
@@ -76,11 +76,11 @@ PyCharm
 
 项目文件中存在**venv**文件夹，跳过安装内部依赖。
 
-<img src="/Users/ahz171/Library/Application Support/typora-user-images/image-20220427112301160.png" alt="image-20220427112301160" style="zoom:;" />
+<img width="271" alt="image" src="https://user-images.githubusercontent.com/50827991/167056385-d47272b6-b748-4cc2-b59a-6408cd4079c6.png">
 
 配置解释器：
 
-<img src="/Users/ahz171/Library/Application Support/typora-user-images/image-20220427113100291.png" alt="image-20220427113100291" style="zoom:;" />
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/50827991/167056403-773520b4-2ee5-4773-a098-493cab868601.png">
 
 
 
@@ -90,17 +90,17 @@ PyCharm
 
 1.GitHub上下载压缩包：[下载地址](https://github.com/allure-framework/allure2/releases)
 
-<img src="/Users/ahz171/Library/Application Support/typora-user-images/image-20220427114501824.png" alt="image-20220427114501824" style="zoom:;" />
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/50827991/167056433-e73e1e69-ab90-4339-80c7-e2b5d9410ba2.png">
 
 2.下载后解压，放在自己想放的位置。
 
 3.将allure的bin目录加入环境变量path中。
 
-<img src="/Users/ahz171/Library/Application Support/typora-user-images/image-20220427115003519.png" alt="image-20220427115003519"  />
+<img width="531" alt="image" src="https://user-images.githubusercontent.com/50827991/167056452-ef418a07-aee0-4be0-9ef8-13b29486bd8c.png">
 
 4.验证allure
 
-<img src="/Users/ahz171/Library/Application Support/typora-user-images/image-20220427115028984.png" alt="image-20220427115028984"  />
+<img width="982" alt="image" src="https://user-images.githubusercontent.com/50827991/167056473-9a0474ba-2f14-44b3-9d40-0880031fa5ad.png">
 
 **macOS：**
 
@@ -120,7 +120,7 @@ source ~/.zshrc
 
 3.使用brew安装allure：`brew install allure`，等待安装完成终端中验证是否安装成功：`allure`
 
-<img src="/Users/ahz171/Library/Application Support/typora-user-images/image-20220427115200378.png" alt="image-20220427115200378"  />
+<img width="710" alt="image" src="https://user-images.githubusercontent.com/50827991/167056491-4c66d76b-c744-4c76-8563-6d87d8005848.png">
 
 
 
@@ -135,9 +135,9 @@ source ~/.zshrc
 
 
 
-<img src="/Users/ahz171/Library/Application Support/typora-user-images/image-20220427150643632.png" alt="image-20220427150643632"  />
+<img width="1055" alt="image" src="https://user-images.githubusercontent.com/50827991/167056504-8363c15b-e196-41db-ab41-e3438b7b6a99.png">
 
-<img src="/Users/ahz171/Library/Application Support/typora-user-images/image-20220427150559883.png" alt="image-20220427150559883"  />
+<img width="1512" alt="image" src="https://user-images.githubusercontent.com/50827991/167056519-95a616d4-3bc6-4d8b-b355-2c5d33cdcc62.png">
 
 
 
