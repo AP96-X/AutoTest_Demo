@@ -22,21 +22,21 @@
 
 ```
 - AutoUITest_Demo:项目目录
-	- ApiData: Api数据文件夹，文件格式: yaml
+  - ApiData: Api数据文件夹，文件格式: yaml
   - ApiRequest: Api请求实现
   - ApiTestCase: Api自动化测试用例
-	- Common: 公共方法
-	- Logs: 执行日志存放位置
-	- PageObject: 页面对象，包含页面元素和页面操作
-	- PageTestCase: UI自动化测试用例存放位置
-	- Report: 测试报告存放位置
-	- Screenshots: 失败用例截图
-	- Utils: 工具类
-	- venv: 虚拟环境，主要是python基础环境和第三方依赖
-	- pytest.ini: pytest配置文件
-	- run_api.py: Api自动化测试启动文件
-	- run_ui.py: UI自动化测试启动文件
-	- requirements.txt: 环境依赖文件
+  - Common: 公共方法
+  - Logs: 执行日志存放位置
+  - PageObject: 页面对象，包含页面元素和页面操作
+  - PageTestCase: UI自动化测试用例存放位置
+  - Report: 测试报告存放位置
+  - Screenshots: 失败用例截图
+  - Utils: 工具类
+  - venv: 虚拟环境，主要是python基础环境和第三方依赖
+  - pytest.ini: pytest配置文件
+  - run_api.py: Api自动化测试启动文件
+  - run_ui.py: UI自动化测试启动文件
+  - requirements.txt: 环境依赖文件
 ```
 
 **环境依赖：**
@@ -60,90 +60,9 @@
 PyCharm
 ```
 
+## 2.2.UI自动化
 
-
-## 2.2.项目搭建
-
-### 2.2.1.PyCharm打开项目
-
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/50827991/167056340-68abd6f0-51de-4c4e-a260-af14abc0f2c8.png">
-
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/50827991/167056361-4ffbd021-ac35-487e-933a-b2a114e161bb.png">
-
-
-
-### 2.2.2.配置解释器
-
-项目文件中存在**venv**文件夹，跳过安装内部依赖。
-
-<img width="271" alt="image" src="https://user-images.githubusercontent.com/50827991/167056385-d47272b6-b748-4cc2-b59a-6408cd4079c6.png">
-
-配置解释器：
-
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/50827991/167056403-773520b4-2ee5-4773-a098-493cab868601.png">
-
-
-
-### 2.2.3.安装外部依赖allure
-
-**Windows：**
-
-1.GitHub上下载压缩包：[下载地址](https://github.com/allure-framework/allure2/releases)
-
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/50827991/167056433-e73e1e69-ab90-4339-80c7-e2b5d9410ba2.png">
-
-2.下载后解压，放在自己想放的位置。
-
-3.将allure的bin目录加入环境变量path中。
-
-<img width="531" alt="image" src="https://user-images.githubusercontent.com/50827991/167056452-ef418a07-aee0-4be0-9ef8-13b29486bd8c.png">
-
-4.验证allure
-
-<img width="982" alt="image" src="https://user-images.githubusercontent.com/50827991/167056473-9a0474ba-2f14-44b3-9d40-0880031fa5ad.png">
-
-**macOS：**
-
-1.安装brew，**终端**内执行，下载速度稍慢，请耐心等候。
-
-```
-/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
-```
-
-2.为homebrew设置环境变量
-
-```
-vim ~/.zshrc
-export PATH="/usr/local/Homebrew/bin:$PATH"
-source ~/.zshrc
-```
-
-3.使用brew安装allure：`brew install allure`，等待安装完成终端中验证是否安装成功：`allure`
-
-<img width="710" alt="image" src="https://user-images.githubusercontent.com/50827991/167056491-4c66d76b-c744-4c76-8563-6d87d8005848.png">
-
-
-
-### 2.2.4.运行启动文件
-
-
-
-| 执行文件   | 作用              |
-| ---------- | ----------------- |
-| run_ui.py  | 启动UI自动化测试  |
-| run_api.py | 启动Api自动化测试 |
-
-
-
-<img width="1055" alt="image" src="https://user-images.githubusercontent.com/50827991/167056504-8363c15b-e196-41db-ab41-e3438b7b6a99.png">
-
-<img width="1512" alt="image" src="https://user-images.githubusercontent.com/50827991/167056519-95a616d4-3bc6-4d8b-b355-2c5d33cdcc62.png">
-
-
-
-## 2.3.UI自动化
-
-### 2.3.1.PageObject
+### 2.2.1.PageObject
 
 这类文件用于定位元素，完整页面的操作逻辑。
 
@@ -189,7 +108,7 @@ class BaiduIndex(BasePage):
 
 
 
-### 2.3.2.PageTestCase
+### 2.2.2.PageTestCase
 
 组织测试用例，执行pageobject中的逻辑操作，进行预期结果与实际结果的判断等。
 
@@ -243,7 +162,7 @@ class TestBaiduSearch:
 
 
 
-### 2.3.3.run_ui.py
+### 2.2.3.run_ui.py
 
 测试执行文件：可通过[**.py**]文件或[**标志**]进行执行特定测试用例。
 
@@ -274,9 +193,9 @@ if __name__ == '__main__':
 
 
 
-## 2.4.API自动化
+## 2.3.API自动化
 
-### 2.4.1.ApiRequest
+### 2.3.1.ApiRequest
 
 定义api请求
 
@@ -301,7 +220,7 @@ auth = Auth()
 
 
 
-### 2.4.2.ApiData
+### 2.3.2.ApiData
 
 接口所需的数据，一个yaml文件存在多类数据。[参考](https://www.runoob.com/w3cnote/yaml-intro.html)
 
@@ -313,7 +232,7 @@ login_data:
 
 
 
-### 2.4.3.ApiTestCase
+### 2.3.3.ApiTestCase
 
 组织测试用例，执行ApiRequest中的请求操作，进行预期结果与实际结果的判断等。
 
@@ -345,7 +264,7 @@ class TestNetease:
 
 
 
-### 2.4.4.run_api.py
+### 2.3.4.run_api.py
 
 测试执行文件：可通过[**.py**]文件或[**标志**]进行执行特定测试用例。
 
