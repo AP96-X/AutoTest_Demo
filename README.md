@@ -1,5 +1,5 @@
 # AutoTest_Demo
-## 自动化UI测试与自动化API测试的综合框架。
+## 自动化测试与自动化API测试的综合框架。
 # 1.基础知识
 
 [Python基础](https://www.runoob.com/python3/python3-tutorial.html)
@@ -21,7 +21,7 @@
 **项目结构：**
 
 ```
-- AutoUITest_Demo:项目目录
+- AutoTest_Demo:项目目录
   - ApiData: Api数据文件夹，文件格式: yaml
   - ApiRequest: Api请求实现
   - ApiTestCase: Api自动化测试用例
