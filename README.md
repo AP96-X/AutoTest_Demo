@@ -31,7 +31,6 @@
   - PageTestCase: UI自动化测试用例存放位置
   - Report: 测试报告存放位置
   - Screenshots: 失败用例截图
-  - Utils: 工具类
   - venv: 虚拟环境，主要是python基础环境和第三方依赖
   - pytest.ini: pytest配置文件
   - run_api.py: Api自动化测试启动文件
