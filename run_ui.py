@@ -16,6 +16,9 @@ if __name__ == '__main__':
     pytest.main(["-s", "./PageTestCase/test_001_baiduSearch.py", "--alluredir", report_path])
     # pytest.main(["-s", "-m", "baidu_search and binganshouye", "./PageTestCase/", "--alluredir", report_path])
     # 解析并打开测试报告，执行: allure serve {report_path}
-    os.system(f"allure serve {report_path}")
-    # 生成最终的测试报告，执行allure generate {report_path} -o {report_path}/allure-report --clean
-    os.system(f"allure generate {report_path} -o {report_path}/AutoUITest-report --clean")
+   
+    # # 生成最终的测试报告，执行allure generate {report_path} -o {report_path}/allure-report --clean
+    os.system(f"allure generate {report_path} -o {report_path}/AutoAPITest-report --clean")
+
+    # 解析并打开测试报告，执行: allure serve {report_path} / allure open {report_path}
+    os.system(f"allure open {report_path}")
