@@ -25,7 +25,7 @@ class BingAnZhiKongShouYe(BasePage):
     start_click = (By.CSS_SELECTOR, '.ant-calendar-month-panel-selected-cell')
     # 结束时间：2021-03
     end_click = (
-    By.XPATH, '/html/body/div/div/div/div[5]/div/div/div/div/div/div/div[2]/div/div[2]/table/tbody/tr[1]/td[3]')
+        By.XPATH, '/html/body/div/div/div/div[5]/div/div/div/div/div/div/div[2]/div/div[2]/table/tbody/tr[1]/td[3]')
     # 查询按键
     button_search = (By.XPATH, '//*[@id="app"]/div/div/div[1]/div/div[1]/form/div[7]/div/div/div[1]/button[1]')
     # 响应页面元素

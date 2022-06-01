@@ -1,5 +1,7 @@
 # AutoTest_Demo
+
 ## 自动化测试与自动化API测试的综合框架。
+
 # 1.基础知识
 
 [Python基础](https://www.runoob.com/python3/python3-tutorial.html)
@@ -9,8 +11,6 @@
 [pytest基础](https://docs.pytest.org/en/stable/)
 
 [allure框架](https://docs.qameta.io/allure/#_flaky_tests)
-
-
 
 # 2.自动化使用教程
 
@@ -104,8 +104,6 @@ class BaiduIndex(BasePage):
 
 ```
 
-
-
 ### 2.2.2.PageTestCase
 
 组织测试用例，执行pageobject中的逻辑操作，进行预期结果与实际结果的判断等。
@@ -158,8 +156,6 @@ class TestBaiduSearch:
 
 ```
 
-
-
 ### 2.2.3.run_ui.py
 
 测试执行文件：可通过[**.py**]文件或[**标志**]进行执行特定测试用例。
@@ -189,8 +185,6 @@ if __name__ == '__main__':
 
 ```
 
-
-
 ## 2.3.API自动化
 
 ### 2.3.1.ApiRequest
@@ -216,8 +210,6 @@ auth = Auth()
 
 ```
 
-
-
 ### 2.3.2.ApiData
 
 接口所需的数据，一个yaml文件存在多类数据。[参考](https://www.runoob.com/w3cnote/yaml-intro.html)
@@ -227,8 +219,6 @@ login_data:
   mobile: '18289454846'
   ver_code: '123456'
 ```
-
-
 
 ### 2.3.3.ApiTestCase
 
@@ -259,8 +249,6 @@ class TestNetease:
         assert response.get('code') == 10000
 
 ```
-
-
 
 ### 2.3.4.run_api.py
 
