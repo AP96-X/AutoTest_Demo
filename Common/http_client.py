@@ -20,6 +20,12 @@ class HttpClient:
     def post(self, path, data=None, json_string=None, **kwargs):
         return self.__request(path, 'POST', data, json_string, **kwargs)
 
+    def patch(self, path, data=None, **kwargs):
+        return self.__request(path, 'PARCH', data, **kwargs)
+
+    def delete(self, path, **kwargs):
+        return self.__request(path, **kwargs)
+
     def __request(self, url, method, data=None, json_string=None, **kwargs):
         headers = kwargs.get("headers")
         params = kwargs.get("params")
@@ -32,6 +38,10 @@ class HttpClient:
             resp = self.__session.get(url, **kwargs)
         elif method == "POST":
             resp = requests.post(url, data, json_string, **kwargs)
+        elif method == "PATCH":
+            resp = requests.patch(url, data, **kwargs)
+        elif method == "DELETE":
+            resp = requests.request(url, **kwargs)
         self.__response_log(resp)
         return resp
 
