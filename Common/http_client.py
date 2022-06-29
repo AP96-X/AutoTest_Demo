@@ -49,9 +49,12 @@ class HttpClient:
         self.logger.info("接口请求地址: {}".format(url))
         self.logger.info("接口请求方式: {}".format(method))
         self.logger.info("接口请求头: {}".format(json.dumps(headers, indent=4, ensure_ascii=False)))
-        self.logger.info("接口请求 params 参数: {}".format(json.dumps(params, indent=4, ensure_ascii=False)))
-        self.logger.info("接口请求体 data 参数 : {}".format(json.dumps(data, indent=4, ensure_ascii=False)))
-        self.logger.info("接口请求体 json 参数: {}".format(json.dumps(json_string, indent=4, ensure_ascii=False)))
+        if params is not None:
+            self.logger.info("接口请求 params 参数: {}".format(json.dumps(params, indent=4, ensure_ascii=False)))
+        elif data is not None:
+            self.logger.info("接口请求体 data 参数 : {}".format(json.dumps(data, indent=4, ensure_ascii=False)))
+        elif json_string is not None:
+            self.logger.info("接口请求体 json 参数: {}".format(json.dumps(json_string, indent=4, ensure_ascii=False)))
 
     def __response_log(self, resp):
         try:
