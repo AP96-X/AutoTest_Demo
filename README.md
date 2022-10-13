@@ -10,7 +10,7 @@
 
 [pytest基础](https://docs.pytest.org/en/stable/)
 
-[allure框架](https://docs.qameta.io/allure/#_flaky_tests)
+[allure框架](https://qameta.io/allure-report/)
 
 # 2.自动化使用教程
 
